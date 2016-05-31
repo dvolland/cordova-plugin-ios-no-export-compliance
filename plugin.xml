@@ -8,13 +8,8 @@
     </engines>
     <!-- ios -->
     <platform name="ios">
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
-            <array>
-                <dict>
-                    <key>ITSAppUsesNonExemptEncryption</key>
-                    <false/>
-                </dict>
-            </array>
+        <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
+          <false/>
         </config-file>
     </platform>
 </plugin>
