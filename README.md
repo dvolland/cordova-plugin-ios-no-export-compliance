@@ -1,9 +1,9 @@
-# iOS No Export Compliance
+## Description 
 
-This plugin set ITSAppUsesNonExemptEncryption to false in *-Info.plist file
+iOS No Export Compliance: This plugin set ITSAppUsesNonExemptEncryption to false in *-Info.plist file
 
 ## Installation
 
-`npm -i cordova-plugin-ios-no-export-compliance`
+`npm i cordova-plugin-ios-no-export-compliance`
 
 
